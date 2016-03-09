@@ -1,4 +1,4 @@
-# http-sftp
+# url-to-sftp
 
 A library for transferring files from an http link to an SFTP server.  
 
