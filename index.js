@@ -13,7 +13,7 @@ module.exports.send = function send(link, scpOpts, destination, callback) {
         var client = new Client(scpOpts);
         client.write({
             destination: destination,
-            content: new Buffer(body)
+            content: new Buffer(body, scpOpts.contentType)
         }, callback);
     });
 }
