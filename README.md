@@ -6,12 +6,12 @@ A library for transferring files from an http link to an SFTP server.
 
 ## Install
 
-    $ npm install http-sftp
+    $ npm install url-to-sftp
 
 ## Example
 
 ```js
-    var client = require('http-sftp');
+    var client = require('url-to-sftp');
     var scpOpts = {
                       host: 'test.rebex.net',
                       username: 'demo',
