@@ -23,6 +23,9 @@ module.exports.send = function send(link, scpOpts, destination, opts, callback) 
         client.writeStream(destination, function getWriteableStream(err, writeableStream) {
             if (err) return callback(err);
             request(opts).pipe(progressStr).pipe(writeableStream);
-        }, callback);
+        }, function onComplete() {
+            client.close();
+            callback();
+        });
     })
 };

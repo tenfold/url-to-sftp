@@ -1,6 +1,6 @@
 {
   "name": "url-to-sftp",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Transfer files from http links to SFTP",
   "main": "index.js",
   "scripts": {
