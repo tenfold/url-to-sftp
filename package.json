@@ -1,6 +1,6 @@
 {
   "name": "url-to-sftp",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Transfer files from http links to SFTP",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,7 @@
     "mocha": "^2.4.5",
     "progress": "^1.1.8",
     "request": "^2.69.0",
+    "progress-stream": "^1.2.0",
     "scp2": "git://github.com/askhogan/node-scp2.git#master"
   }
 }
